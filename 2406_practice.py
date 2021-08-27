@@ -901,6 +901,8 @@ for house in houses:
 # trip_to = vietnam.VietnamPackage()
 # trip_to.detail()
 
+
+
 # from travel_temp import*
 # trip_to = vietnam.VietnamPackage()
 # trip_to = thailand.ThailandPackage()
