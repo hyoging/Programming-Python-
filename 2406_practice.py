@@ -893,6 +893,7 @@ for house in houses:
 # trip_to = travel_temp.thailand.ThailandPackage()
 # trip_to.detail()
 #
+
 # from travel_temp.thailand import ThailandPackage
 # trip_to = ThailandPackage()
 # trip_to.detail()
