@@ -20,3 +20,16 @@ f.close()
 for line in lines:
     print(line.rstrip())
 
+
+# quiz
+#이름: 이유빈[tab]좋아하는 색: 초록색
+#이름: 김효진[tab]좋아하는 색: 하늘색
+print('이름: 이유빈[tab]좋아하는 색 :초록색')
+f.open('text.txt', 'r', encoding='utf-8')
+lines = f.readlines()
+f.close()
+for line in lines:
+    data = line.split(':')
+    print('이름:'+line.rstrip()[:3]+"\t좋아하는 색:"+line.rstrip()[4:])
+
+
